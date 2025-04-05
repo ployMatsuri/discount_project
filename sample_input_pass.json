@@ -1,0 +1,12 @@
+{
+  "items": [
+    {"name": "T-Shirt", "price": 350, "category": "Clothing"},
+    {"name": "Hat", "price": 250, "category": "Accessories"},
+    {"name": "Belt", "price": 230, "category": "Accessories"}
+  ],
+  "campaigns": [
+    {"category": "Coupon", "type": "Fixed", "amount": 50},
+    {"category": "On Top", "type": "Point", "points": 68},
+    {"category": "Seasonal", "type": "Seasonal", "every": 300, "discount": 40}
+  ]
+}

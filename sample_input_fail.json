@@ -1,0 +1,9 @@
+{
+  "items": [
+    {"name": "หมวก", "category": "Accessories"}, 
+    {"name": "เสื้อ", "price": -100, "category": "Clothing"} 
+  ],
+  "campaigns": [
+    {"category": "On Top", "type": "Point"} 
+  ]
+}

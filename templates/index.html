@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Discount Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f2f4f8;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      font-weight: 600;
+      color: #2c3e50;
+    }
+
+    input[type="file"] {
+      padding: 10px;
+      border: 2px dashed #bbb;
+      background-color: #fff;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.2s ease-in-out;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+
+    #result {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #27ae60;
+    }
+
+    #discountDetails {
+      margin-top: 10px;
+      background-color: #ecf0f1;
+      border-radius: 8px;
+      padding: 15px;
+      max-width: 600px;
+      width: 100%;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+  </style>
+  <script src="/static/script.js"></script>
+</head>
+<body>
+  <h2>Upload your order JSON file</h2>
+  <input type="file" id="fileInput" />
+  <br>
+  <button onclick="uploadFile()">Submit</button>
+  <p id="result"></p>
+  <div id="discountDetails"></div>
+</body>
+</html>
