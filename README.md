@@ -36,14 +36,14 @@ To run this project using Docker, follow these steps:
 Make sure you are in the project directory where the `Dockerfile` is located. Build the Docker image with the following command:
 
 ```bash
-docker build -t discount-calculator .
+docker build -t discount-app .
 ```
 
 ### 2. Run the Docker container:
 After building the image, run the container with the following command:
 
 ```bash
-docker run -p 5000:5000 discount-calculator
+docker run -p 5000:5000 discount-app
 ```
 
 This will start the application on port 5000.
